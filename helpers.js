@@ -1,0 +1,1 @@
+module.exports = { round2Dec : (s) => Math.round(s * 100) / 100, calcPercentage: (a, b) => ((b - a) / a) * 100 };
